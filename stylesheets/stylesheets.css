@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Quattrocento+Sans');
+body {
+	margin: 0;
+	font-family: 'Libre Franklin', sans-serif;
+}
+hr{
+	background-color: #CDCDCD ;
+}
+
+.ms-section{
+			text-align: center;
+			overflow: hidden;
+}
+
+.img__icon{
+	max-height: 100%;
+	width: 100%;
+
+}
+
+.container__menu{
+	position:fixed;
+	background:#92BEC0;
+	height: 50px;
+	z-index: 100;
+	width: 100%;
+}
+#menu{
+	float: right;
+	width: 50%;
+	margin:0;
+}
+
+#menu li {
+	display:inline-block;
+	margin: 10px;
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #ffffff;
+}
+
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display: block;
+}
+#menu li.active a{
+	color: #12646E;
+}
+
+.ms-tableCell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.ms-easing {
+	-webkit-transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+}
+.title{
+color: #79CCCC;
+font-size: 21px;
+font-weight: 400;
+}
+
+.services__section{
+	text-align: justify;
+	margin: 8% 15% 0 15%;
+
+}
+
+.services_description{
+	display: inline-block;
+	font-size: 14px;
+	margin: -5% 0 0 23%;
+	width: 75%;
+}
+
+.img{
+	height: 15%;
+	width: 15%;
+	display: inline-block;
+	margin: 0 0 -18% 0;
+}
+
+.img__i{height: 11%;
+	width: 11%;
+	display: inline-block;
+	}
+
+#map{
+	display: none;
+}
+
+.about_section, .contact_section, .portfolio_section{
+	text-align: justify;
+	margin: 0 12% 0 12%;
+}
+
+

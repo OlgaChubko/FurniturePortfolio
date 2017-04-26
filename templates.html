@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheets.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="scripts/jquery.easings.min.js"></script>
+</head>
+<body>
+<div class="container__menu">
+    <div class="logo">
+        <a href="#" class="logo__link"><img src="" alt=""></a>
+    </div>
+    <div class="nav__menu">
+        <ul id="menu" class="menu">
+            <li data-menuanchor="first" class="menu__item"><a href="#first" class="menu__link">ABOUT US</a></li>
+            <li data-menuanchor="second" class="menu__item"><a href="#second" class="menu__link">SERVICES</a></li>
+            <li data-menuanchor="third" class="menu__item"><a href="#third" class="menu__link">PORTFOLIO</a></li>
+            <li data-menuanchor="four" class="menu__item"><a href="#four" class="menu__link">CONTACT US</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="myContainer">
+    <!-- Картинка первой левой секции-->
+    <div class="ms-left">
+        <div class="ms-section" id="left1">
+            <div class="icon">
+                <img src="zip_images/home-background.jpg" alt="" class="img__icon">
+            </div>
+        </div>
+
+        <!--Описание второй левой секции-->
+        <div class="ms-section" id="left2">
+            <div class="services__section">
+                <div class="title services__title">Services</div>
+                <hr>
+                <div class="title_services__description">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+                    cusantium que laudantium, totam
+                    rem aperiam eaque ipsa, quae ab illo inventoreid veritatis etisi uasi architecto beatae vitae dicta
+                    sunt, explicabo.
+                </div>
+                <div class="services_row">
+                    <div class="row">
+                        <div class="services_icon1"><img src="zip_images/service1.png" alt="" title="" class="img">
+                        </div>
+                        <div class="services_description">
+                            <h5>Interior Design</h5>
+
+                            <p>Sed ut perspiciatis, unde omnis iste natus error sit lauda sdia voluptatem cusantium que
+                                laudantium, totam rem aperiams </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="services_icon2"><img src="zip_images/service2.png" alt="" title="" class="img">
+                        </div>
+                        <div class="services_description">
+                            <h5>Interior Design</h5>
+
+                            <p>Sed ut perspiciatis, unde omnis iste natus error sit lauda sdia voluptatem cusantium que
+                                laudantium, totam rem aperiams </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="services_icon3"><img src="zip_images/service3.png" alt="" title="" class="img">
+                        </div>
+                        <div class="services_description">
+                            <h5>Interior Design</h5>
+
+                            <p>Sed ut perspiciatis, unde omnis iste natus error sit lauda sdia voluptatem cusantium que
+                                laudantium, totam rem aperiams </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="services_icon4"><img src="zip_images/service4.png" alt="" title="" class="img">
+                        </div>
+                        <div class="services_description">
+                            <h5>Interior Design</h5>
+
+                            <p>Sed ut perspiciatis, unde omnis iste natus error sit lauda sdia voluptatem cusantium que
+                                laudantium, totam rem aperiams </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Катинка третьей левой секции-->
+        <div class="ms-section" id="left3">
+            <div class="icon">
+                <img src="zip_images/portfolio1.jpg" alt="" class="img__icon"> <!--Тут будет галерея-->
+            </div>
+        </div>
+
+        <!-- Описание четвертой левой секции-->
+        <div class="ms-section" id="left4">
+            <div class="contact_section">
+                <div class="title contact__title">Contact us</div>
+                <hr>
+                <p class="">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem cusantium que laudantium,
+                    totam
+                    rem aperiam eaque ipsa, quae ab illo inventoreid veritatis etisi uasi architecto beatae vitae dicta
+                    sunt, explicabo.</p>
+                <!--<input class="form_subscribe_mail" required="" placeholder="Email" name="EMAIL" type="email">-->
+                <!--<button type="submit" class="btn_subscribe">Subscribe for news</button>-->
+                <div class="address">
+                    <div class="address__img"><a href="" id="showHideContent"><img class="img__i"
+                                                                                   src="zip_images/pain.png"></a>
+                    </div>
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.5984553814953!2d30.451507849075288!3d50.44531195828963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c0b17fb4faf9d82!2z0IbQvdGE0L7Qv9GD0LvRjNGB!5e0!3m2!1sru!2sua!4v1488883210694"
+                            width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="form">
+                    <div class="title message__title" >Send message</div>
+                    <hr>
+                    <form id="contactform" name="contact" method="post" action="#">
+                        <p class="note"><span class="req">*</span>Required fields</p>
+
+                        <div class="row">
+                            <label for="name">Name<span class="req">*</span></label>
+                            <input type="text" id="name" class="txt" placeholder="you name">
+                        </div><br>
+
+                        <div class="row">
+                            <label for="email">E-mail<span class="req">*</span></label>
+                            <input type="email" id="email" class="txt" placeholder="your mail address" required>
+                        </div><br>
+
+                        <div class="row">
+                            <label for="phone">Phone<span class="req">*</span></label>
+                            <input type="text" id="phone" class="txt" placeholder="your phone" required>
+                        </div><br>
+
+                        <div class="row">
+                            <label for="message">Message <span class="req">*</span></label>
+                            <textarea id="message" class="txtarea"></textarea>
+                        </div><br>
+
+                        <div class="center">
+                            <input type="submit" id="submitbtn" name="submitbtn" value="Send">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Описание первой правой секции-->
+    <div class="ms-right">
+        <div class="ms-section" id="right1">
+            <div class="about_section">
+                <div class="title about__title">About Us</div>
+
+                <p class="">Lorem ipsum dolor sit ydi amet, consectetur ipfose</p>
+                <hr>
+                <p class="">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem cusantium que laudantium,
+                    totam
+                    rem aperiam eaque ipsa, quae ab illo inventoreid veritatis etisi uasi architecto beatae vitae dicta
+                    sunt, explicabo. Nemonim ipsam oluptatem, quiaiy voluptas sit, aspernatur aut odit aut fugit, sequia
+                    consequuntur magnif doloreset eos, qui ratione voluptatem sequi sciunt, neque porro quisquamtre qui
+                    olorem ipsum, quia dolor sit, amet, ectetur, adipisci velit, sed quia nonf numquameius enim adconse
+                    quatur.</p>
+
+                <p> Que laudantium, totam rem aperiam eaque ipsa, quae ab illo inventoreid veritatis etisi uasi
+                    architecto
+                    beatae vitae dicta sunt, explicabo. Nemonim ipsam oluptatem, quiaiy voluptas sit, aspernatur
+                    autfut.</p>
+                <hr>
+                <input class="form_subscribe_mail" required="" placeholder="Email" name="email" type="email">
+                <button type="submit" class="btn_subscribe">Subscribe for news</button>
+            </div>
+        </div>
+
+        <!--Картинка второй правой секции-->
+        <div class="ms-section" id="right2">
+            <div class="icon">
+                <img src="zip_images/services-background.jpg" alt="" class="img__icon">
+            </div>
+        </div>
+
+        <!-- Описание третьей правой секции-->
+        <div class="ms-section" id="right3">
+            <div class="portfolio_section">
+                <div class="title portfolio__title">Portfolio</div>
+                <hr>
+                <p class="">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem cusantium que laudantium,
+                    totam
+                    rem aperiam eaque ipsa, quae ab illo inventoreid veritatis etisi uasi architecto beatae vitae dicta
+                    sunt, explicabo. Nemonim ipsam oluptatem, quiaiy voluptas sit, aspernatur aut odit aut fugit, sequia
+                    consequuntur magnif doloreset eos, qui ratione voluptatem sequi sciunt, neque porro quisquamtre qui
+                    olorem ipsum, quia dolor sit, amet, ectetur, adipisci velit, sed quia nonf numquameius enim adconse
+                    quatur.</p>
+            </div>
+        </div>
+
+        <!-- Описание четвертой левой секции-->
+        <div class="ms-section" id="right4">
+            <div class="icon">
+                <img src="zip_images/contacts-background.jpg" alt="" class="img__icon">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="zip_scripts/scroll.js"></script>
+<script src="zip_scripts/jquery.multiscroll.js"></script>
+</body>
+</html>

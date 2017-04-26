@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#myContainer").multiscroll({anchors:["first","second","third","four"],menu:"#menu",css3:!0})}),$(document).ready(function(){$("#showHideContent").click(function(){return $("#map").is(":hidden")?$("#map").show("slow"):$("#map").hide("slow"),!1})});
